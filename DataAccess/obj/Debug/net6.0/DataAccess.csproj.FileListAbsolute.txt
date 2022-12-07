@@ -13,3 +13,5 @@ D:\Csharp\Learning\RentaCar-Backend\DataAccess\obj\Debug\net6.0\DataAccess.dll
 D:\Csharp\Learning\RentaCar-Backend\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 D:\Csharp\Learning\RentaCar-Backend\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\Csharp\Learning\RentaCar-Backend\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Csharp\Learning\RentaCar-Backend\DataAccess\bin\Debug\net6.0\Core.dll
+D:\Csharp\Learning\RentaCar-Backend\DataAccess\bin\Debug\net6.0\Core.pdb
