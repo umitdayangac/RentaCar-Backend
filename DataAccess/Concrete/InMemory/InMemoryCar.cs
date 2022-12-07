@@ -1,4 +1,5 @@
-﻿using DataAccess.Abstract;
+﻿using System.Linq.Expressions;
+using DataAccess.Abstract;
 using Entities.Concrete;
 
 namespace DataAccess.Concrete.InMemory;
@@ -27,6 +28,16 @@ public class InMemoryCar:ICarDal
         return _cars.SingleOrDefault(c => c.Id == id);
     }
 
+    public List<Car> GetAll(Expression<Func<Car, bool>>? filter = null)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Car Get(Expression<Func<Car, bool>> filter)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Add(Car car)
     {
         _cars.Add(car);
@@ -46,5 +57,10 @@ public class InMemoryCar:ICarDal
     {
         Car carDeletTo = _cars.SingleOrDefault(c => c.Id == car.Id);
         _cars.Remove(carDeletTo);
+    }
+
+    public List<Brand> GetBrandId(Expression<Func<Brand, bool>>? filter = null)
+    {
+        throw new NotImplementedException();
     }
 }
